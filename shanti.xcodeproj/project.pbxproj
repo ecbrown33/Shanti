@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DBD64CD25E0884C00A37270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64CC25E0884C00A37270 /* AppDelegate.swift */; };
+		4DBD64CF25E0884C00A37270 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64CE25E0884C00A37270 /* GameViewController.swift */; };
+		4DBD64D225E0884C00A37270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64D025E0884C00A37270 /* Main.storyboard */; };
+		4DBD64D525E0884C00A37270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64D325E0884C00A37270 /* LaunchScreen.storyboard */; };
+		4DBD64DA25E0884C00A37270 /* shanti.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DBD64D925E0884C00A37270 /* shanti.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DBD64E025E0884C00A37270 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64DE25E0884C00A37270 /* Interface.storyboard */; };
+		4DBD64E725E0884C00A37270 /* shanti Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4DBD64E625E0884C00A37270 /* shanti Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DBD64EC25E0884C00A37270 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64EB25E0884C00A37270 /* InterfaceController.swift */; };
+		4DBD64EE25E0884C00A37270 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64ED25E0884C00A37270 /* ExtensionDelegate.swift */; };
+		4DBD64F725E0884C00A37270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64F625E0884C00A37270 /* AppDelegate.swift */; };
+		4DBD64F925E0884C00A37270 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64F825E0884C00A37270 /* GameViewController.swift */; };
+		4DBD64FC25E0884C00A37270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64FA25E0884C00A37270 /* Main.storyboard */; };
+		4DBD64FF25E0884C00A37270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64FD25E0884C00A37270 /* LaunchScreen.storyboard */; };
+		4DBD650825E0884C00A37270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD650725E0884C00A37270 /* AppDelegate.swift */; };
+		4DBD650A25E0884C00A37270 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD650925E0884C00A37270 /* GameViewController.swift */; };
+		4DBD650D25E0884C00A37270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD650B25E0884C00A37270 /* Main.storyboard */; };
+		4DBD651025E0884C00A37270 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C125E0884A00A37270 /* Actions.sks */; };
+		4DBD651125E0884C00A37270 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C125E0884A00A37270 /* Actions.sks */; };
+		4DBD651225E0884C00A37270 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C125E0884A00A37270 /* Actions.sks */; };
+		4DBD651325E0884C00A37270 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C225E0884A00A37270 /* GameScene.sks */; };
+		4DBD651425E0884C00A37270 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C225E0884A00A37270 /* GameScene.sks */; };
+		4DBD651525E0884C00A37270 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C225E0884A00A37270 /* GameScene.sks */; };
+		4DBD651625E0884C00A37270 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C225E0884A00A37270 /* GameScene.sks */; };
+		4DBD651725E0884C00A37270 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64C325E0884A00A37270 /* GameScene.swift */; };
+		4DBD651825E0884C00A37270 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64C325E0884A00A37270 /* GameScene.swift */; };
+		4DBD651925E0884C00A37270 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64C325E0884A00A37270 /* GameScene.swift */; };
+		4DBD651A25E0884C00A37270 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD64C325E0884A00A37270 /* GameScene.swift */; };
+		4DBD651B25E0884C00A37270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C425E0884C00A37270 /* Assets.xcassets */; };
+		4DBD651C25E0884C00A37270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C425E0884C00A37270 /* Assets.xcassets */; };
+		4DBD651D25E0884C00A37270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C425E0884C00A37270 /* Assets.xcassets */; };
+		4DBD651E25E0884C00A37270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD64C425E0884C00A37270 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DBD64DB25E0884C00A37270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DBD64BC25E0884900A37270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DBD64D825E0884C00A37270;
+			remoteInfo = "shanti watchOS App";
+		};
+		4DBD64E825E0884C00A37270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DBD64BC25E0884900A37270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DBD64E525E0884C00A37270;
+			remoteInfo = "shanti watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DBD652425E0884C00A37270 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DBD64E725E0884C00A37270 /* shanti Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD652825E0884C00A37270 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4DBD64DA25E0884C00A37270 /* shanti.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DBD64C125E0884A00A37270 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4DBD64C225E0884A00A37270 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4DBD64C325E0884A00A37270 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4DBD64C425E0884C00A37270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DBD64C925E0884C00A37270 /* shanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBD64CC25E0884C00A37270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DBD64CE25E0884C00A37270 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4DBD64D125E0884C00A37270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBD64D425E0884C00A37270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DBD64D625E0884C00A37270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD64D925E0884C00A37270 /* shanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBD64DF25E0884C00A37270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4DBD64E125E0884C00A37270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD64E625E0884C00A37270 /* shanti Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "shanti Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBD64EB25E0884C00A37270 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4DBD64ED25E0884C00A37270 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4DBD64EF25E0884C00A37270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD64F425E0884C00A37270 /* shanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBD64F625E0884C00A37270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DBD64F825E0884C00A37270 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4DBD64FB25E0884C00A37270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBD64FE25E0884C00A37270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DBD650025E0884C00A37270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD650525E0884C00A37270 /* shanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBD650725E0884C00A37270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DBD650925E0884C00A37270 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4DBD650C25E0884C00A37270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBD650E25E0884C00A37270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD650F25E0884C00A37270 /* shanti_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shanti_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DBD64C625E0884C00A37270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64E325E0884C00A37270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64F125E0884C00A37270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD650225E0884C00A37270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DBD64BB25E0884900A37270 = {
+			isa = PBXGroup;
+			children = (
+				4DBD64C025E0884900A37270 /* shanti Shared */,
+				4DBD64CB25E0884C00A37270 /* shanti iOS */,
+				4DBD64DD25E0884C00A37270 /* shanti watchOS App */,
+				4DBD64EA25E0884C00A37270 /* shanti watchOS App Extension */,
+				4DBD64F525E0884C00A37270 /* shanti tvOS */,
+				4DBD650625E0884C00A37270 /* shanti macOS */,
+				4DBD64CA25E0884C00A37270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DBD64C025E0884900A37270 /* shanti Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD64C125E0884A00A37270 /* Actions.sks */,
+				4DBD64C225E0884A00A37270 /* GameScene.sks */,
+				4DBD64C325E0884A00A37270 /* GameScene.swift */,
+				4DBD64C425E0884C00A37270 /* Assets.xcassets */,
+			);
+			path = "shanti Shared";
+			sourceTree = "<group>";
+		};
+		4DBD64CA25E0884C00A37270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD64C925E0884C00A37270 /* shanti.app */,
+				4DBD64D925E0884C00A37270 /* shanti.app */,
+				4DBD64E625E0884C00A37270 /* shanti Extension.appex */,
+				4DBD64F425E0884C00A37270 /* shanti.app */,
+				4DBD650525E0884C00A37270 /* shanti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBD64CB25E0884C00A37270 /* shanti iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD64CC25E0884C00A37270 /* AppDelegate.swift */,
+				4DBD64CE25E0884C00A37270 /* GameViewController.swift */,
+				4DBD64D025E0884C00A37270 /* Main.storyboard */,
+				4DBD64D325E0884C00A37270 /* LaunchScreen.storyboard */,
+				4DBD64D625E0884C00A37270 /* Info.plist */,
+			);
+			path = "shanti iOS";
+			sourceTree = "<group>";
+		};
+		4DBD64DD25E0884C00A37270 /* shanti watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD64DE25E0884C00A37270 /* Interface.storyboard */,
+				4DBD64E125E0884C00A37270 /* Info.plist */,
+			);
+			path = "shanti watchOS App";
+			sourceTree = "<group>";
+		};
+		4DBD64EA25E0884C00A37270 /* shanti watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD64EB25E0884C00A37270 /* InterfaceController.swift */,
+				4DBD64ED25E0884C00A37270 /* ExtensionDelegate.swift */,
+				4DBD64EF25E0884C00A37270 /* Info.plist */,
+			);
+			path = "shanti watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		4DBD64F525E0884C00A37270 /* shanti tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD64F625E0884C00A37270 /* AppDelegate.swift */,
+				4DBD64F825E0884C00A37270 /* GameViewController.swift */,
+				4DBD64FA25E0884C00A37270 /* Main.storyboard */,
+				4DBD64FD25E0884C00A37270 /* LaunchScreen.storyboard */,
+				4DBD650025E0884C00A37270 /* Info.plist */,
+			);
+			path = "shanti tvOS";
+			sourceTree = "<group>";
+		};
+		4DBD650625E0884C00A37270 /* shanti macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD650725E0884C00A37270 /* AppDelegate.swift */,
+				4DBD650925E0884C00A37270 /* GameViewController.swift */,
+				4DBD650B25E0884C00A37270 /* Main.storyboard */,
+				4DBD650E25E0884C00A37270 /* Info.plist */,
+				4DBD650F25E0884C00A37270 /* shanti_macOS.entitlements */,
+			);
+			path = "shanti macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DBD64C825E0884C00A37270 /* shanti iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBD652925E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti iOS" */;
+			buildPhases = (
+				4DBD64C525E0884C00A37270 /* Sources */,
+				4DBD64C625E0884C00A37270 /* Frameworks */,
+				4DBD64C725E0884C00A37270 /* Resources */,
+				4DBD652825E0884C00A37270 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DBD64DC25E0884C00A37270 /* PBXTargetDependency */,
+			);
+			name = "shanti iOS";
+			productName = "shanti iOS";
+			productReference = 4DBD64C925E0884C00A37270 /* shanti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DBD64D825E0884C00A37270 /* shanti watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBD652525E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti watchOS App" */;
+			buildPhases = (
+				4DBD64D725E0884C00A37270 /* Resources */,
+				4DBD652425E0884C00A37270 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DBD64E925E0884C00A37270 /* PBXTargetDependency */,
+			);
+			name = "shanti watchOS App";
+			productName = "shanti watchOS App";
+			productReference = 4DBD64D925E0884C00A37270 /* shanti.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4DBD64E525E0884C00A37270 /* shanti watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBD652125E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti watchOS App Extension" */;
+			buildPhases = (
+				4DBD64E225E0884C00A37270 /* Sources */,
+				4DBD64E325E0884C00A37270 /* Frameworks */,
+				4DBD64E425E0884C00A37270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shanti watchOS App Extension";
+			productName = "shanti watchOS App Extension";
+			productReference = 4DBD64E625E0884C00A37270 /* shanti Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4DBD64F325E0884C00A37270 /* shanti tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBD652C25E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti tvOS" */;
+			buildPhases = (
+				4DBD64F025E0884C00A37270 /* Sources */,
+				4DBD64F125E0884C00A37270 /* Frameworks */,
+				4DBD64F225E0884C00A37270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shanti tvOS";
+			productName = "shanti tvOS";
+			productReference = 4DBD64F425E0884C00A37270 /* shanti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DBD650425E0884C00A37270 /* shanti macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBD652F25E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti macOS" */;
+			buildPhases = (
+				4DBD650125E0884C00A37270 /* Sources */,
+				4DBD650225E0884C00A37270 /* Frameworks */,
+				4DBD650325E0884C00A37270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shanti macOS";
+			productName = "shanti macOS";
+			productReference = 4DBD650525E0884C00A37270 /* shanti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DBD64BC25E0884900A37270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4DBD64C825E0884C00A37270 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4DBD64D825E0884C00A37270 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4DBD64E525E0884C00A37270 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4DBD64F325E0884C00A37270 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4DBD650425E0884C00A37270 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4DBD64BF25E0884900A37270 /* Build configuration list for PBXProject "shanti" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DBD64BB25E0884900A37270;
+			productRefGroup = 4DBD64CA25E0884C00A37270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DBD64C825E0884C00A37270 /* shanti iOS */,
+				4DBD64D825E0884C00A37270 /* shanti watchOS App */,
+				4DBD64E525E0884C00A37270 /* shanti watchOS App Extension */,
+				4DBD64F325E0884C00A37270 /* shanti tvOS */,
+				4DBD650425E0884C00A37270 /* shanti macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DBD64C725E0884C00A37270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651325E0884C00A37270 /* GameScene.sks in Resources */,
+				4DBD64D225E0884C00A37270 /* Main.storyboard in Resources */,
+				4DBD651025E0884C00A37270 /* Actions.sks in Resources */,
+				4DBD64D525E0884C00A37270 /* LaunchScreen.storyboard in Resources */,
+				4DBD651B25E0884C00A37270 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64D725E0884C00A37270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651C25E0884C00A37270 /* Assets.xcassets in Resources */,
+				4DBD64E025E0884C00A37270 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64E425E0884C00A37270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651425E0884C00A37270 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64F225E0884C00A37270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651525E0884C00A37270 /* GameScene.sks in Resources */,
+				4DBD64FC25E0884C00A37270 /* Main.storyboard in Resources */,
+				4DBD651125E0884C00A37270 /* Actions.sks in Resources */,
+				4DBD64FF25E0884C00A37270 /* LaunchScreen.storyboard in Resources */,
+				4DBD651D25E0884C00A37270 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD650325E0884C00A37270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD650D25E0884C00A37270 /* Main.storyboard in Resources */,
+				4DBD651625E0884C00A37270 /* GameScene.sks in Resources */,
+				4DBD651E25E0884C00A37270 /* Assets.xcassets in Resources */,
+				4DBD651225E0884C00A37270 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DBD64C525E0884C00A37270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651725E0884C00A37270 /* GameScene.swift in Sources */,
+				4DBD64CF25E0884C00A37270 /* GameViewController.swift in Sources */,
+				4DBD64CD25E0884C00A37270 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64E225E0884C00A37270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651825E0884C00A37270 /* GameScene.swift in Sources */,
+				4DBD64EE25E0884C00A37270 /* ExtensionDelegate.swift in Sources */,
+				4DBD64EC25E0884C00A37270 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD64F025E0884C00A37270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651925E0884C00A37270 /* GameScene.swift in Sources */,
+				4DBD64F925E0884C00A37270 /* GameViewController.swift in Sources */,
+				4DBD64F725E0884C00A37270 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBD650125E0884C00A37270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBD651A25E0884C00A37270 /* GameScene.swift in Sources */,
+				4DBD650A25E0884C00A37270 /* GameViewController.swift in Sources */,
+				4DBD650825E0884C00A37270 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DBD64DC25E0884C00A37270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DBD64D825E0884C00A37270 /* shanti watchOS App */;
+			targetProxy = 4DBD64DB25E0884C00A37270 /* PBXContainerItemProxy */;
+		};
+		4DBD64E925E0884C00A37270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DBD64E525E0884C00A37270 /* shanti watchOS App Extension */;
+			targetProxy = 4DBD64E825E0884C00A37270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DBD64D025E0884C00A37270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBD64D125E0884C00A37270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBD64D325E0884C00A37270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBD64D425E0884C00A37270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBD64DE25E0884C00A37270 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBD64DF25E0884C00A37270 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBD64FA25E0884C00A37270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBD64FB25E0884C00A37270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBD64FD25E0884C00A37270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBD64FE25E0884C00A37270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBD650B25E0884C00A37270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBD650C25E0884C00A37270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DBD651F25E0884C00A37270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DBD652025E0884C00A37270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4DBD652225E0884C00A37270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				INFOPLIST_FILE = "shanti watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "shanti Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		4DBD652325E0884C00A37270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				INFOPLIST_FILE = "shanti watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "shanti Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		4DBD652625E0884C00A37270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				IBSC_MODULE = shanti_Extension;
+				INFOPLIST_FILE = "shanti watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti.watchkitapp;
+				PRODUCT_NAME = shanti;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		4DBD652725E0884C00A37270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				IBSC_MODULE = shanti_Extension;
+				INFOPLIST_FILE = "shanti watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti.watchkitapp;
+				PRODUCT_NAME = shanti;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		4DBD652A25E0884C00A37270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				INFOPLIST_FILE = "shanti iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti;
+				PRODUCT_NAME = shanti;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DBD652B25E0884C00A37270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				INFOPLIST_FILE = "shanti iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti;
+				PRODUCT_NAME = shanti;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DBD652D25E0884C00A37270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				INFOPLIST_FILE = "shanti tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti;
+				PRODUCT_NAME = shanti;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		4DBD652E25E0884C00A37270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				INFOPLIST_FILE = "shanti tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti;
+				PRODUCT_NAME = shanti;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DBD653025E0884C00A37270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "shanti macOS/shanti_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "shanti macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti;
+				PRODUCT_NAME = shanti;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DBD653125E0884C00A37270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "shanti macOS/shanti_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X3QPJJXVSQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "shanti macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.purenostalgic.shanti;
+				PRODUCT_NAME = shanti;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DBD64BF25E0884900A37270 /* Build configuration list for PBXProject "shanti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBD651F25E0884C00A37270 /* Debug */,
+				4DBD652025E0884C00A37270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBD652125E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBD652225E0884C00A37270 /* Debug */,
+				4DBD652325E0884C00A37270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBD652525E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBD652625E0884C00A37270 /* Debug */,
+				4DBD652725E0884C00A37270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBD652925E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBD652A25E0884C00A37270 /* Debug */,
+				4DBD652B25E0884C00A37270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBD652C25E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBD652D25E0884C00A37270 /* Debug */,
+				4DBD652E25E0884C00A37270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBD652F25E0884C00A37270 /* Build configuration list for PBXNativeTarget "shanti macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBD653025E0884C00A37270 /* Debug */,
+				4DBD653125E0884C00A37270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DBD64BC25E0884900A37270 /* Project object */;
+}
